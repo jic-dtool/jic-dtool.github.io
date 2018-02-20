@@ -7,7 +7,7 @@ easily and cost-effectively.
 
 ## Package data and metadata into a beautiful box
 
-![Package data and metadata into a beautiful box]({{ site.url }}/assets/imagespackage_data_and_metadata_into_beautiful_box.png)
+![Package data and metadata into a beautiful box]({{ site.url }}/assets/images/package_data_and_metadata_into_beautiful_box.png)
 
 
 
