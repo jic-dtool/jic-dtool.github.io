@@ -9,6 +9,9 @@ easily and cost-effectively.
 
 ![Package data and metadata into a beautiful box]({{ site.url }}/assets/images/package_data_and_metadata_into_beautiful_box.png)
 
+## Move and organise your data easily
+
+![Move and organise your data easily]({{ site.url }}/assets/images/move_and_organise_boxes_easily.png)
 
 
 ## Contact Us
