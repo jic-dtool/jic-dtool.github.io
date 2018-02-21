@@ -5,14 +5,25 @@ To tackle this we have invested time and effort into building up both tooling
 and training material to help researchers organise and process their data more
 easily and cost-effectively.
 
-## Package data and metadata into a beautiful box
+## Package data into a beautiful box
+
+Package data and metadata into a beautiful box.
 
 ![Package data and metadata into a beautiful box]({{ site.url }}/assets/images/package_data_and_metadata_into_beautiful_box.png)
 
-## Move and organise your data easily
+## Move and organise your boxed data easily
+
+Packaging the data and metadata into self contained box makes it easy to move
+around and organise.
 
 ![Move and organise your data easily]({{ site.url }}/assets/images/move_and_organise_boxes_easily.png)
 
+## Locate your boxed data
+
+The packaged metadata makes it easy to find a box of interest in among lots of
+other boxes.
+
+![Find your boxed data]({{ site.url }}/assets/images/find_your_box_in_a_collection_of_boxes.png)
 
 ## Contact Us
 
