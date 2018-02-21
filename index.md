@@ -25,6 +25,15 @@ other boxes.
 
 ![Find your boxed data]({{ site.url }}/assets/images/find_your_box_in_a_collection_of_boxes.png)
 
+
+## Verify the integrity of your boxed items
+
+The packaged metadata can be used to verify the integrity of the data items in
+the box.
+
+![Verify items in box]({{ site.url }}/assets/images/verify_items_in_box.png)
+
+
 ## Contact Us
 
 If you need advice on how to manage data please do get in touch with us. 
