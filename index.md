@@ -34,6 +34,14 @@ the box.
 ![Verify items in box]({{ site.url }}/assets/images/verify_items_in_box.png)
 
 
+## Process your boxed data
+
+Boxed data fits into processing pipelines. Taking a data centric approach to
+compute, going from dataset to dataset, is powerful because it automates many
+of the overheads associated with managing data.
+
+![Dataset to dataset processing]({{ site.url }}/assets/images/dataset_to_dataset_processing.png)
+
 ## Contact Us
 
 If you need advice on how to manage data please do get in touch with us. 
