@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The problem with mixing data
+category: resources
 ---
 
 Practical advice on how to structure files and directories in a project.

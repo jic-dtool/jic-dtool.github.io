@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Useful data management links
+category: resources
 ---
 
 Links to useful external sources on data management with brief summaries.
