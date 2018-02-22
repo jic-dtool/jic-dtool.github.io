@@ -20,9 +20,9 @@ We refer to this box as a dataset.
 
 Having the data and metadata packaged as a self contained whole makes it easy
 to move around and organise. Furthermore, the tools work with both traditional
-file system storage as well as cloud options such as Amazon S3 and Microsoft
-Azure storage giving researchers the ability to chose the storage solution
-that best suits their needs.
+file system as well as cloud options such as Amazon S3 and Microsoft Azure
+giving researchers the ability to chose the storage solution that best suits
+their needs.
 
 <img class="outer" src="{{ site.url }}/assets/images/move_and_organise_boxes_easily.png" alt="Move and organise data easily" />
 
