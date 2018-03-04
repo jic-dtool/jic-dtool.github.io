@@ -2,6 +2,7 @@
 layout: post
 title: The problem with mixing data
 category: resources
+image: /assets/images/placeholders/brainstorm-small.jpg
 ---
 
 Practical advice on how to structure files and directories in a project.

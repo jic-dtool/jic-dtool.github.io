@@ -2,6 +2,7 @@
 layout: post
 title: Useful data management links
 category: resources
+image: /assets/images/placeholders/books-small.jpg
 ---
 
 Links to useful external sources on data management with brief summaries.
