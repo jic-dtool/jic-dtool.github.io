@@ -1,35 +1,45 @@
-## About Us
+<div class="container">
+  <h2>About Us</h2>
 
 
-### Tjelvar Olsson
+  <h3>Tjelvar Olsson</h3>
 
-Tjelvar has a background in scientific software development and research.  He
-holds a position as a scientific computing lab manager at the John Innes
-Centre, where helps the research groups manage and analyse the data they
-produce.
+  <p>
+  Tjelvar has a background in scientific software development and research.  He
+  holds a position as a scientific computing lab manager at the John Innes
+  Centre, where helps the research groups manage and analyse the data they
+  produce.
+  </p>
 
-He did his undergraduate and PhD in biochemistry at University College London.
-During this time he collected data from the literature and used it to derive
-new knowledge about the thermodynamics of protein-ligand interactions.
+  <p>
+  He did his undergraduate and PhD in biochemistry at University College London.
+  After finishing his PhD Tjelvar worked at the Cambridge Crystallographic Data
+  Centre, where he ended up managing the development of their life-science
+  products.
+  </p>
 
-After finishing his PhD Tjelvar worked at the Cambridge Crystallographic Data
-Centre, where he ended up managing the development efforts of their
-life-science products.
+  <p>
+  Tjelvar is interested in how science and technology impact individuals and
+  society at large. In particular how we can use computers and software to do
+  better research and make life easier for ourselves.
+  </p>
 
-Tjelvar is interested in how science and technology impact individuals and
-society at large. In particular how we can use computers and software to do
-better research and make life easier for ourselves.
-
-### Matthew Hartley
-
-
-### Vision
-
-We want enable researchers to organise and process their data more easily and
-cost-effectively.
+  <h3>Matthew Hartley</h3>
 
 
-### Dtool Solutions
+  <h3>Vision</h3>
 
-We provide training and advice on data management and custom solutions for
-processing data.
+  <p>
+  We want enable researchers to organise and process their data more easily and
+  cost-effectively.
+  </p>
+
+
+  <h3>Dtool Solutions</h3>
+
+  <p>
+  We provide training and advice on data management and custom solutions for
+  processing data.
+  </p>
+
+</div>
