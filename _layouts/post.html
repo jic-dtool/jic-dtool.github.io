@@ -5,7 +5,8 @@ layout: default
 <div class="container">
   <article class="post">
     <h2 class="post-title">{{ page.title }}</h2>
-    <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
+    <p><time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time></p>
+    <img class="img-fluid rounded my-4" src="{{ site.url }}{{ page.image }}" />
     {{ content }}
   </article>
 </div>
