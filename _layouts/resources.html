@@ -2,33 +2,35 @@
 layout: default
 ---
 
-<h2>Resources</h2>
+<div class="container">
+  <h2>Resources</h2>
 
-<div class="row my-5">
-  {% for post in site.categories.resources %}
+  <div class="row my-5">
+    {% for post in site.categories.resources %}
 
 
-    <div class="col-4">
-      <div class="card" >
-        <img class="card-img-top" src="{{ site.url }}{{ post.image }}" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">{{ post.title }}</h5>
-          <p class="card-text">
-            {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-          </p>
-          <a href="{{ post.url }}" class="btn btn-primary">Read more</a>
+      <div class="col-4">
+        <div class="card" >
+          <img class="card-img-top" src="{{ site.url }}{{ post.image }}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">
+              {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+            </p>
+            <a href="{{ post.url }}" class="btn btn-primary">Read more</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    {% assign mod = forloop.index | modulo: 3 %}
-    {% if forloop.last %} 
-</div> <!-- row -->
-    {% else %}
-       {% if mod == 0 %} 
-</div> <!-- row -->
-<div class="row my-5">
+      {% assign mod = forloop.index | modulo: 3 %}
+      {% if forloop.last %} 
+  </div> <!-- row -->
+      {% else %}
+         {% if mod == 0 %} 
+  </div> <!-- row -->
+  <div class="row my-5">
+        {% endif %}
       {% endif %}
-    {% endif %}
 
-  {% endfor %}
+    {% endfor %}
+</div>
