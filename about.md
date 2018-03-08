@@ -2,8 +2,11 @@
   <h2>About Us</h2>
 
 
-  <h3>Tjelvar Olsson</h3>
 
+  <div class="row my-5">
+
+  <div class="col">
+  <h3>Tjelvar Olsson</h3>
   <p>
   Tjelvar has a background in scientific software development and research.  He
   holds a position as a scientific computing lab manager at the John Innes
@@ -23,8 +26,24 @@
   society at large. In particular how we can use computers and software to do
   better research and make life easier for ourselves.
   </p>
+  </div>
 
+  <div class="col my-5">
+    <img class="img-fluid" src="https://avatars3.githubusercontent.com/u/10738286" />
+  </div>
+
+  </div>
+
+  <div class="row">
+  <div class="col">
   <h3>Matthew Hartley</h3>
+  </div>
+
+  <div class="col">
+    <img class="img-fluid" src="https://avatars3.githubusercontent.com/u/1063007" />
+  </div>
+
+  </div>
 
 
   <h3>Vision</h3>
