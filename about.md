@@ -29,7 +29,7 @@
   </div>
 
   <div class="col my-5">
-    <img class="img-fluid" src="https://avatars3.githubusercontent.com/u/10738286" />
+    <img class="img-fluid rounded" src="https://avatars3.githubusercontent.com/u/10738286" />
   </div>
 
   </div>
@@ -40,7 +40,7 @@
   </div>
 
   <div class="col">
-    <img class="img-fluid" src="https://avatars3.githubusercontent.com/u/1063007" />
+    <img class="img-fluid rounded" src="https://avatars3.githubusercontent.com/u/1063007" />
   </div>
 
   </div>
