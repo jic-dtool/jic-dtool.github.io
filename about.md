@@ -30,8 +30,21 @@
   <h3>Vision</h3>
 
   <p>
-  We want enable researchers to organise and process their data more easily and
-  cost-effectively.
+  We want to make data management a seamless and unobtrusive process that happens
+  automatically in the background, giving researchers confidence that their data
+  is safe and secure.
+  </p>
+
+  <p>
+  We want to make it possible to work with data hosted in the cloud as easy as
+  working with data on one's own machine, to enable researchers to make use of the
+  most cost-effective storage and computing resources available to them.
+  </p>
+
+  <p>
+  We want to make data processing in the cloud and on high-performance
+  computing clusters as easy as processing data on one's own machine, to empower
+  researchers to process their data as quickly as possible.
   </p>
 
 
