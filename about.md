@@ -70,8 +70,8 @@
   <h3>Dtool Solutions</h3>
 
   <p>
-  We provide training and advice on data management and custom solutions for
-  processing data.
+  We provide training, advice and custom solutions for simplifying and
+  automating data management and processing.
   </p>
 
 </div>
