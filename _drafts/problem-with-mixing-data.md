@@ -5,92 +5,106 @@ category: resources
 image: /assets/images/placeholders/brainstorm-small.jpg
 ---
 
-Practical advice on how to structure files and directories in a project.
+You are running out of space on your computer and you need to delete files from
+old projects.  If this concept fills you with fear of boredom, or worse, fear
+of loosing data then read on for some practical advice on how to structure
+files and directories to make this easier in the future.
 
-You have run out of space in your research group share. You need to delete
-unnecessary files. What command would you use to delete the unnecessary files
-in the directory structure below?
+### The problem
+
+You have run out of disk space. You need to delete unnecessary files from an
+old project. Below is a tree view of the files in the old project.
 
 ```
-$ tree my_project/
-my_project/
+$ tree some_project/
+some_project/
 ├── analysis.py
 ├── data.csv
 ├── more_data.csv
 ├── multiple_file_analysis.py
 ├── output.csv
 ├── pre_process.py
-└── processed_data.csv
+└── cleaned_data.csv
 ```
 
-When one starts working on a project it is not uncommon to keep scripts close
-to the raw data. Usually, this is as a result of (short term) convenience.
+*What files can you safely delete?*
 
-A project may therefore start out like this:
+
+### What a mess
+
+This toy example may seem artificial, but it is based on a working pattern that
+is very common.
+
+When one starts working on a project it is convenient to keep scripts close
+to the raw data. A project may therefore start out along the lines of the below,
+with a data file (``data.csv``) and an analysis script (``analysis.py``).
+
 
 ```
-$ tree my_project/
-my_project/
+$ tree some_project/
+some_project/
+├── analysis.py
 └── data.csv
 ```
 
-Then one adds a script to process the data:
+The analysis script works on the data to produce an output file (``output.csv``).
 
 ```
-$ tree my_project/
-my_project/
-├── analysis.py
-    └── data.csv
-```
-
-Then one runs the analysis script on the data:
-
-```
-$ tree my_project/
-my_project/
+$ tree some_project/
+some_project/
 ├── analysis.py
 ├── data.csv
 └── output.csv
 ```
 
-Then one creates another script to pre process the data and run it:
+As it turns out the data needs some pre-processing to standardise it.
+One therefore creates a script to do this pre-processing (``pre_process.py``)
+which generates cleaned data (``cleaned_data.csv``).
 
 ```
-$ tree my_project/
-my_project/
+$ tree some_project/
+some_project/
 ├── analysis.py
 ├── data.csv
 ├── output.csv
 ├── pre_process.py
-└── processed_data.csv
+└── cleaned_data.csv
 ```
 
-Then some more data arrives and one realises the analysis script needs to be
-able to work on more than one input file:
+Then more data (``more_data.csv``) arrives and one realises the analysis script
+needs to be able to work on more than one input file. However, rather than
+editing the existing scripts one produces a new one to work on multiple files
+(``multiple_file_analysis.py``).
 
 ```
-$ tree my_project/
-my_project/
+$ tree some_project/
+some_project/
 ├── analysis.py
 ├── data.csv
 ├── more_data.csv
 ├── multiple_file_analysis.py
 ├── output.csv
 ├── pre_process.py
-└── processed_data.csv
+└── cleaned_data.csv
 ```
 
-You have run out of space in your research group share. You need to delete
-unnecessary files. What command would you use to delete the unnecessary files
-in the directory structure below?
+Nine months later you run out of disk space. You need to delete unnecessary
+files from an old project. Which files can you safely delete?
+
+
+## A better way
+
+Now suppose that you were faced with the same challenge of deleting unnecessary
+files, but the files were organised into the directory structure below. Which
+file(s) would you delete?
 
 ```
-$ tree my_project/
-my_project/
+$ tree some_project/
+some_project/
 ├── final_results
 │   └── output.csv
 ├── intermediate_data
-│   └── processed_data.csv
+│   └── cleaned_data.csv
 ├── raw_data
 │   ├── data.csv
 │   └── more_data.csv
@@ -100,28 +114,34 @@ my_project/
     └── pre_process.py
 ```
 
+The directory names suggest that the intermediate file ``cleaned_data.csv`` is
+a good candidate for deletion. If the whole analysis pipeline was automated one
+may also consider deleting the final result (``output.csv``), depending on how
+long it takes to run the analysis.
+
 The setup above is an improvement. However it is not ideal. What if you, or one
 of your colleagues, wanted to use the raw data for a different analysis. How
 would you enable that?
 
-**Copying the raw data is bad!**
+### Avoiding data duplication
 
-Making a symbolic link to the raw data would mean that the location and the
-directory structure of the current project could never change. This is not
-ideal.
+There are several reason to want to avoid duplicating data. One reason is
+that every duplication costs disk space. Another reason is that having
+multiple copies of data makes it ambiguous what the canonical source of the
+data is.
 
-A better solution is to have a canonical place to store your raw data in.
-For example something along the lines of the below:
+A better solution is therefore to have a canonical place to store your raw data
+in. For example something along the lines of the below.
 
 ```
 $ tree research-group-share/
 research-group-share/
 ├── projects
-│   ├── abc_proj
+│   ├── cure_cancer
 │   │   ├── final_results
 │   │   ├── intermediate_data
 │   │   └── scripts
-│   └── def_proj
+│   └── feed_the_world
 │       ├── final_results
 │       ├── intermediate_data
 │       └── scripts
@@ -130,3 +150,19 @@ research-group-share/
     ├── raw_data_2.csv
     └── raw_data_3.csv
 ```
+
+In the above the all raw data is potentially available to all projects and it
+is up to each project to specify which raw data files to include in its
+analysis.
+
+Having the data in a canonical location helps avoids data duplication. It also
+has the added benefit of making it easier to find data.
+
+### Summary
+
+The key take home messages are:
+
+1. Keep raw data separate from derived/intermediate data
+2. Keep raw data in a consistent location
+3. Standardise the structure of your projects so that it is easy to identify
+   files that can be easily re-generated
