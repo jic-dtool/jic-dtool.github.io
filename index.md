@@ -75,8 +75,10 @@
         <h5>Find datasets of interest</h5>
         <p class="">
           The packaged metadata can be used to locate a box of interest in among lots of
-          other boxes.
+	  other boxes, without the need of having access to or maintaining a
+          central database.
         </p>
+
       </div>
     </div>
   </div>
@@ -89,7 +91,7 @@
         <h5>Verify the contents of datasets</h5>
         <p class="">
           The packaged metadata can also be used to verify the integrity of the data
-          items in the box giving researchers peace of mind that the data underpinning
+          items in the box, giving researchers peace of mind that the data underpinning
           their scientific results are safe and secure.
         </p>
       </div>
@@ -111,14 +113,14 @@
              alt="Dataset to dataset processing" />
       </div>
       <div class="col-md align-self-center">
-        <h5>Improve data processing</h5>
+        <h5>Data processing</h5>
         <p class="img-fluid">
-          Our tools provide programatic access to the items in a dataset. This makes it
+          The tools provide programmatic access to the items in a dataset. This makes it
           easy to fit datasets into processing pipelines.
         </p>
         <p class="">
-          We have built processing tools that allow a data centring approach to compute,
-          transforming one dataset into another dataset. Taking a data centric approach
+          The processing tools take a data centring approach to compute,
+          transforming one dataset into another dataset. The data centric approach
           to compute is powerful because it automates many of the overheads associated
           with managing data.
         </p>
