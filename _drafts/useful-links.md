@@ -1,19 +1,22 @@
 ---
 layout: post
-title: Useful data management links
+title: Data management resources and reading
 category: resources
 image: /assets/images/placeholders/books-small.jpg
 ---
 
-Links to useful external sources on data management with brief summaries.
+Need to learn more about data management? Here is a list of useful reading
+material with brief summaries to help steer you towards those relevant to you.
+The resources have been classified into three categories: practical advice,
+principles, and implementations.
 
 ### Practical advice
 
 - [Ten Simple Rules for Creating a Good Data Management Plan](https://doi.org/10.1371/journal.pcbi.1004525)
   <br />
   Article by William K. Michener published in PLOS Computational Biology
-  describing how to write a good data management plan putting the steps into the
-  context of the data life cycle. .
+  describing how to write a good data management plan in ten simple rules.
+  Each of the rules placed in the context of the data life cycle.
 - [Ten Simple Rules for Digital Data Storage](https://doi.org/10.1371/journal.pcbi.1005097)
   <br />
   Article by Edmund M. Hart et al. published in PLOS Computational Biology
@@ -21,12 +24,12 @@ Links to useful external sources on data management with brief summaries.
 - [How to share data with a statistician](https://github.com/jtleek/datasharing)
   <br />
   Guide by Jeff Leek giving practical advice on how to share data with a
-  statistician or data scientist
+  statistician or data scientist.
 - [Tidy Data](http://doi.org/10.18637/jss.v059.i10)
   <br />
   Article by Hadley Wickham published in the Journal of Statistical Software
   introducing the concept of "tidy data", a specific structure that makes it
-  easier to visualise and work with the tabular data. 
+  easier to visualise and work with tabular data. 
 
 
 ### Principles
@@ -35,9 +38,11 @@ Links to useful external sources on data management with brief summaries.
   <br />
   Article by Mark D. Wilkinson et al. published in Scientific Data describing
   principles required for machines to be able to discover and consume data.
+  The FAIR principles described are: Findability, Accessibility,
+  Interoperability, and Reusability.
 - [10 aspects of highly effective research data](https://www.elsevier.com/connect/10-aspects-of-highly-effective-research-data)
   <br />
-  Blog post by Anita de Waard, Helena Cousijn, and IJsbrand Jan Aalbersberg
+  Blog post in Elsevier by Anita de Waard, Helena Cousijn, and IJsbrand Jan Aalbersberg
   describing an extension of the FAIR principles that is meant to function as a
   roadmap for incremental and continual improvements of data management processes
   and systems.
