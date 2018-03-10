@@ -2,13 +2,13 @@
 layout: post
 title: The problem with mixing data
 category: resources
-image: /assets/images/placeholders/brainstorm-small.jpg
+image: /assets/images/mixing_sugar_and_cinnamon.jpg
 ---
 
 You are running out of space on your computer and you need to delete files from
 old projects.  If this concept fills you with fear of boredom, or worse, fear
-of loosing data then read on for some practical advice on how to structure
-files and directories to make this easier in the future.
+of loosing data then read on. Here are some practical advice on how to
+structure files and directories to make this easier in the future.
 
 ### The problem
 

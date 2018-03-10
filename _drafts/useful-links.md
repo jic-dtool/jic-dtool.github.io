@@ -2,7 +2,7 @@
 layout: post
 title: Data management resources and reading
 category: resources
-image: /assets/images/placeholders/books-small.jpg
+image: /assets/images/books.jpg
 ---
 
 Need to learn more about data management? Here is a list of useful reading

@@ -48,7 +48,7 @@
 	</p>
 
         <p class="">
-	  The tools
+	  Our tools
           work with both traditional file system as well as cloud options
           such as Amazon S3 and Microsoft Azure giving researchers the
           ability to chose the storage solution that best suits their needs.
@@ -74,7 +74,7 @@
       <div class="col-md align-self-center">
         <h5>Find datasets of interest</h5>
         <p class="">
-          The packaged metadata can be used to locate a box of interest in among lots of
+          The packaged metadata can be used to locate a box of interest among lots of
 	  other boxes, without the need of having access to or maintaining a
           central database.
         </p>
@@ -115,11 +115,11 @@
       <div class="col-md align-self-center">
         <h5>Data processing</h5>
         <p class="img-fluid">
-          The tools provide programmatic access to the items in a dataset. This makes it
+          Our tools provide programmatic access to the items in a dataset. This makes it
           easy to fit datasets into processing pipelines.
         </p>
         <p class="">
-          The processing tools take a data centring approach to compute,
+          The processing tools take a data centric approach to compute,
           transforming one dataset into another dataset. The data centric approach
           to compute is powerful because it automates many of the overheads associated
           with managing data.
