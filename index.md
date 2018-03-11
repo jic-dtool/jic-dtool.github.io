@@ -131,5 +131,8 @@
 
 <div class="container py-5">
   <h3>Contact Us</h3>
-  <p>If you would like to know more please get in touch with us.</p>
+  <p>
+    If you would like to know more please get in touch with us:
+    <a href="mailto:info@dtool-solutions.com">info@dtool-solutions.com</a>.
+  </p>
 </div>

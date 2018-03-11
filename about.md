@@ -71,6 +71,8 @@
   <p>
   We provide training, advice and custom solutions for simplifying and
   automating data management and processing.
+  If you would like to know more please get in touch with us:
+    <a href="mailto:info@dtool-solutions.com">info@dtool-solutions.com</a>.
   </p>
 
 </div>
