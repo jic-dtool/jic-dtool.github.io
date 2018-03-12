@@ -4,7 +4,7 @@
 
   <div class="row my-5">
     <div class="col">
-      <h3>Tjelvar Olsson</h3>
+      <h3>Dr Tjelvar Olsson</h3>
       <p>
       Tjelvar has a background in scientific software development and research.  He
       holds a position as a scientific computing lab manager at the John Innes
@@ -35,7 +35,7 @@
   <div class="row my-5">
     <div class="col">
 
-      <h3>Matthew Hartley</h3>
+      <h3>Dr Matthew Hartley</h3>
       <p>
       Matthew studied Experimental and Theoretical Physics at the University of
       Cambridge, followed by a PhD in Computational Neuroscience from the
