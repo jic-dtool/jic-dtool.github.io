@@ -34,8 +34,24 @@
 
   <div class="row my-5">
     <div class="col">
+
       <h3>Matthew Hartley</h3>
-      <p>Matthew did his undergraduate in...</p>
+      <p>
+      Matthew studied Experimental and Theoretical Physics at the University of
+      Cambridge, followed by a PhD in Computational Neuroscience from the
+      University of London. Matthew is now Head of Informatics at the John
+      Innes Centre where he leads a team of scientists and software engineers
+      providing support, training and technical expertise in scientific
+      computing and bioinformatics.
+      </p>
+
+      <p>
+      Matthew is interested in quantitative image analysis methods in biology,
+      effective scientific data management for large biological datasets, the
+      development of reproducible scientific computing infrastructure and
+      approaches for training scientists in computational skills.
+      </p>
+
     </div>
 
     <div class="col">
