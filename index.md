@@ -43,7 +43,7 @@
       <div class="col-md align-self-center">
         <h5>Organise and backup datasets easily</h5>
         <p class="">
-          Having the data and metadata packaged as self contained wholes
+          Having the data and metadata packaged as self contained entities
           makes it easy to move datasets around to organise them and create
           remote backup copies.
 	</p>
