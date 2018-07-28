@@ -64,21 +64,21 @@
   <h3>Vision</h3>
 
   <p>
-  To give researchers confidence that their data is safe and secure, we want to
+  To give researchers confidence that their data is safe and secure we want to
   make data management a seamless and unobtrusive process that happens
   automatically in the background
   </p>
 
   <p>
-  To empower researchers to make use of the most cost-effective storage and
-  computing resources available to them we want to make working with data hosted
-  in the cloud as easy as working with data on one's own machine.
+  To empower researchers to make use of the most cost-effective storage
+  resources we want to make access to data hosted
+  in the cloud as easy as if it was on one's own machine.
   </p>
 
   <p>
   To enable researchers to analyse their data as quickly as possible we want to
   make data processing in the cloud and on high-performance computing clusters
-  as easy as processing data on one's own machine.
+  as easy as analysing data on one's own machine.
   </p>
 
 
