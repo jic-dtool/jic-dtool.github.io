@@ -27,7 +27,7 @@
               alt="Package data and metadata into a beautiful box" />
        </div>
        <div class="col-md align-self-center">
-         <h5>Package data and metadata a dataset</h5>
+         <h5>Package data and metadata into a dataset</h5>
          <p class="">
            Our tools allow researchers to package data and metadata
            into a beautiful box. We refer to this box as a dataset.
@@ -41,10 +41,11 @@
   <div class="container py-5">
     <div class="row">
       <div class="col-md align-self-center">
-        <h5>Move and organise datasets easily</h5>
+        <h5>Organise and backup datasets easily</h5>
         <p class="">
-          Having the data and metadata packaged as a self contained whole
-          makes it easy to move around and organise.
+          Having the data and metadata packaged as self contained wholes
+          makes it easy to move datasets around to organise them and create
+          remote backup copies.
 	</p>
 
         <p class="">
@@ -57,7 +58,7 @@
       <div class="col-md">
         <img class="img-fluid"
              src="{{ site.url }}/assets/images/move_and_organise_boxes_easily.png"
-             alt="Move and organise data easily" />
+             alt="Organise and backup data easily" />
       </div>
     </div>
   </div>
@@ -90,7 +91,7 @@
       <div class="col-md align-self-center">
         <h5>Verify the contents of datasets</h5>
         <p class="">
-          The packaged metadata can also be used to verify the integrity of the data
+          The packaged metadata can be used to verify the integrity of the data
           items in the box, giving researchers peace of mind that the data underpinning
           their scientific results are safe and secure.
         </p>
@@ -119,7 +120,7 @@
           easy to fit datasets into processing pipelines.
         </p>
         <p class="">
-          The processing tools take a data centric approach to compute,
+          The tools can be used to take a data centric approach to compute,
           transforming one dataset into another dataset. The data centric approach
           to compute is powerful because it automates many of the overheads associated
           with managing data.
