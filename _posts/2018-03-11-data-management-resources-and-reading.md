@@ -16,7 +16,7 @@ principles, and implementations.
   <br />
   Article by William K. Michener published in PLOS Computational Biology
   describing how to write a good data management plan in ten simple rules.
-  Each of the rules placed in the context of the data life cycle.
+  Each of the rules is placed in the context of the data life cycle.
 - [Ten Simple Rules for Digital Data Storage](https://doi.org/10.1371/journal.pcbi.1005097)
   <br />
   Article by Edmund M. Hart et al. published in PLOS Computational Biology
