@@ -50,8 +50,8 @@
 
         <p class="">
 	  Our tools
-          work with both traditional file system as well as cloud options
-          such as Amazon S3 and Microsoft Azure giving researchers the
+          work with both traditional file system as well as cloud options,
+          such as Amazon S3 and Microsoft Azure, giving researchers the
           ability to chose the storage solution that best suits their needs.
         </p>
       </div>
